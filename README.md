@@ -1,3 +1,4 @@
+# Description
 The original dataset contains 1000 entries with 20 categorial/symbolic attributes. In this dataset, each entry represents a person who takes a credit by a bank. Each person is classified as good or bad credit risks according to the set of attributes. Applied the Machine Learning algorithm (LogisticRegression, Decision Tree Classifier, Random Forest Classifier) to predict risk based on the German Credit card users data.
 
 # Preprocessing and Training
