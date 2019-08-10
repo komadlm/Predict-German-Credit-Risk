@@ -7,22 +7,24 @@ Studied the relationship between the Dependent and Independent Variable using th
 
 Change the data type of some of the columns to factor.
 
-
-
-Dropped the columns Name, Ticket.
-
 Created the dummies for categorical data
 
-Splitting the Dataset into Train Set (dropped the target variable and added In the Test set) and Test Set in 70% and 30% respectively.
+Create X (drop wthe target variable) and Y (only target variable).
 
-Trained the dataset using the LogisticRegression model
+Splitting the X,y into Train Set and Test Set in 75% and 25% respectively.
 
-Predicting the final decision associated with an application using this model
+Trained the dataset using the LogisticRegression model.
 
-And saving the predicted value as LogSub1.csv and uploaded to Kaggle which gate the prediction score 0.76555.
+Trained the dataset using Decision Tree Classifier Model.
 
-Applied the Feature Engineering to the dataset to get better prediction score.
+Predict y using X_test for both the above models. Logistic : accuracy score: 73%, Decision Tree accuracy score: 67%
 
-Again created dummies, spliting data into Train and Test and training the model using the new train dataset, saving the predicted value as LogSub2.csv and uploaded to Kaggle which gave the prediction score 0.78.
+Build Random Forest Classifier model.
 
-test_data_set should be in .csv format
+Use GridSearchCV to find the best estimator.
+
+Build the Random Forest Classifier model with best estimator.
+
+Predicting the test using this model. Using the confusion matrix, the accuracy score : 74%
+
+Test data set should be in .csv format
